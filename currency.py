@@ -2,8 +2,11 @@ import json
 import sys
 import urllib.request
 
+
+echo "MASTER!!!"
 if len(sys.argv) != 3:
     print("Usage: ./currencyrates.py lookup_currency base_currency. Example: ./currencyrates.py cad usd")
+    print("I'm the master")
     sys.exit()
 
 currency = sys.argv[1]
